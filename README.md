@@ -1,4 +1,7 @@
 # gcp_terraform_01
+![alt text](https://github.com/punyapatkha/gcp_terraform_01/blob/main/bi_req_script-Page-3.jpg)
+
+
 Create compute engine and cloud sql for store data from api
 
 
