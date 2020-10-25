@@ -2,22 +2,22 @@
 ![alt text](https://github.com/punyapatkha/gcp_terraform_01/blob/main/bi_req_script-Page-3.jpg)
 
 
-Create compute engine and cloud sql for store data from api
+Create compute engine and CloudSQL for store data from API
 
 
-1.set up terraform binary on local https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/gcp-get-started
+1.Set up Terraform binary on local https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/gcp-get-started
 
-2.register for binance api get token
+2.Register for Binance API and get token
 
-3.create gcp project enable cloudsqlapi & create service account key
+3.Create gcp project enable CloudSQL API & create service account key
 
-4.config project name as service account key in main.tf
+4.Config project name as service account key in main.tf
 
-5.run terraform plan to show current plan
+5.Run Terraform plan to show current plan
 
-6.run terraform apply to create infastruture 
+6.Run Terraform apply to create infastruture 
 
-7.ssh into vm install git and pull this repository
+7.SSG into VM install git and pull this repository
 
 
     sudo apt-get install git-core 
@@ -26,8 +26,10 @@ Create compute engine and cloud sql for store data from api
     git clone https://github.com/punyapatkha/gcp_terraform_01.git
     cd gcp_terraform_01
 
-8.config serviceacouuntkey.json and project name
+8.Config serviceacouuntkey.json and project name
 
-9.run bash script 
+9.Run bash script 
 
-10.run following command to set cronjob
+10.Run following command to set cronjob
+
+    echo '0 * * * * root cd /home/punyapat_kha/gcp_terraform_01 && python3 test_1.py' >> /etc/crontab
