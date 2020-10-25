@@ -12,6 +12,11 @@ Create compute engine and cloud sql for store data from api
 4.run terraform apply to create infastruture 
 
 5.ssh into vm git pull this repository config serviceacouuntkey.json and project name
+    sudo apt-get install git-core 
+    or
+    sudo apt-get install git -y
+    git clone https://github.com/punyapatkha/gcp_terraform_01.git
+    cd gcp_terraform_01
 
 6.run bash script to initialize table in database and deploy script in cronjob
 
