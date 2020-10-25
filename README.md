@@ -9,7 +9,7 @@ Create Compute Engine and CloudSQL for store data from Binance API using Terrafo
 
 2.Register for Binance API and get token
 
-3.Create gcp project enable CloudSQL API & create service account key
+3.Create GCP project enable CloudSQL API & create service account key
 
 4.Config project name and service account key in main.tf
 
@@ -32,7 +32,7 @@ Create Compute Engine and CloudSQL for store data from Binance API using Terrafo
     $cd gcp_terraform_01
 
 
-8.Run bash script in VM
+8.Run Bash script in VM
     
     $sudo bash bashfile1
 
