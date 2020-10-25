@@ -31,7 +31,7 @@ Create compute engine and CloudSQL for store data from API
     
     $sudo bash bashfile1
 
-9.Config database IP,Binance API Token,service account.json in test_1.py
+9.Config database IP,Binance API Token in test_1.py
 
     $nano test_1.py
 
