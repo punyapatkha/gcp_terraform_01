@@ -17,7 +17,7 @@ Create compute engine and CloudSQL for store data from API
 
 6.Run Terraform apply to create infastruture 
 
-7.SSG into VM install git and pull this repository
+7.SSH into VM install git and pull this repository
 
 
     sudo apt-get install git-core 
