@@ -35,3 +35,9 @@ Create compute engine and CloudSQL for store data from API
 11.Run following command to set cronjob
 
     echo '0 * * * * root cd /home/punyapat_kha/gcp_terraform_01 && python3 test_1.py' >> /etc/crontab
+    
+ --------------------------------------------------------------------------------------
+ 
+ on develop
+ script for initialize table in database
+ 
