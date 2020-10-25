@@ -11,7 +11,7 @@ Create compute engine and CloudSQL for store data from API
 
 3.Create gcp project enable CloudSQL API & create service account key
 
-4.Config project name as service account key in main.tf
+4.Config project name and service account key in main.tf
 
 5.Run Terraform plan to show current plan
 
@@ -20,21 +20,22 @@ Create compute engine and CloudSQL for store data from API
 7.SSH into VM install git and pull this repository
 
 
-    sudo apt-get install git-core 
+    $sudo apt-get install git-core 
     or
-    sudo apt-get install git -y
-    git clone https://github.com/punyapatkha/gcp_terraform_01.git
-    cd gcp_terraform_01
+    $sudo apt-get install git -y
+    $git clone https://github.com/punyapatkha/gcp_terraform_01.git
+    $cd gcp_terraform_01
 
-8.Config serviceacouuntkey.json and project name
 
-9.Run bash script 
+8.Run bash script in VM
+    
+    $sudo bash bashfile1
 
-10.Config database IP,Binance API Token,service account.json in test_1.py
+9.Config database IP,Binance API Token,service account.json in test_1.py
 
-11.Run following command to set cronjob
+10.Run following command to set cronjob
 
-    echo '0 * * * * root cd /home/punyapat_kha/gcp_terraform_01 && python3 test_1.py' >> /etc/crontab
+    $sudo echo '0 * * * * root cd /home/punyapat_kha/gcp_terraform_01 && python3 test_1.py' >> /etc/crontab
     
  --------------------------------------------------------------------------------------
  
