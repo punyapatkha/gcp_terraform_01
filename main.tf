@@ -45,11 +45,12 @@ resource "google_compute_instance" "apps" {
 
 locals {
   onprem = ["0.0.0.0/0"]
+  
 }
 
-resource "google_sql_database_instance" "postgres1" {
-  name             = "postgres-instance-terraform-01"
-  database_version = "POSTGRES_11"
+resource "google_sql_database_instance" "mysql1" {
+  name             = "postgres-instance-terraform-02"
+  database_version = "MYSQL_5_6"
   region = "asia-southeast1"
   settings {
     tier = "db-f1-micro"
@@ -80,15 +81,15 @@ resource "google_sql_database_instance" "postgres1" {
   }
 }
 
-resource "google_sql_user" "users" {
-  name     = "postgres"
-  instance = google_sql_database_instance.postgres1.name
-  password = "postgres"
+resource "google_sql_user" "mysql-users" {
+  name     = "mysql"
+  instance = google_sql_database_instance.mysql1.name
+  password = "mysql"
 }
 
-resource "google_sql_database" "stock-db" {
+resource "google_sql_database" "stock-mysqldb" {
   name     = "stock"
-  charset  = "UTF8"
-  collation= "en_US.UTF8"
-  instance = google_sql_database_instance.postgres1.name
+// charset  = "UTF8"
+//  collation= "en_US.UTF8"
+  instance = google_sql_database_instance.mysql1.name
 }
