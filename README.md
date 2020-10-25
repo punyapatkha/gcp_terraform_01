@@ -5,9 +5,11 @@ Create compute engine and cloud sql for store data from api
 
 2.create gcp project enable cloudsqlapi & create service account key
 
-3.run terrafrom plan to show current plan
+2.5 config project name as service account key in main.tf
 
-4.run terrafrom apply to create infastruture 
+3.run terraform plan to show current plan
+
+4.run terraform apply to create infastruture 
 
 5.ssh into vm git pull this repository config serviceacouuntkey.json and project name
 
