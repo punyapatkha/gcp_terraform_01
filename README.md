@@ -48,5 +48,5 @@ Create Compute Engine and CloudSQL for store data from Binance API using Terrafo
  
  On Developing
  
-    script for initialize table in database
- 
+    1.Script for initialize table in database
+    2.Installation Testing
