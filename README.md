@@ -30,7 +30,7 @@ Create compute engine and CloudSQL for store data from API
 
 9.Run bash script 
 
-10.Config database IP in test_1.py
+10.Config database IP,Binance API Token,service account.json in test_1.py
 
 11.Run following command to set cronjob
 
