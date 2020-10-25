@@ -15,7 +15,7 @@ Create compute engine and CloudSQL for store data from API
 
 5.Run Terraform plan to show current plan
 
-6.Run Terraform apply to create infastruture 
+6.Run Terraform apply to create infrastructure 
 
 7.SSH into VM install git and pull this repository
 
@@ -23,6 +23,7 @@ Create compute engine and CloudSQL for store data from API
     $sudo apt-get install git-core 
     or
     $sudo apt-get install git -y
+    
     $git clone https://github.com/punyapatkha/gcp_terraform_01.git
     $cd gcp_terraform_01
 
