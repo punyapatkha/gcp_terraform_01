@@ -36,12 +36,13 @@ Create compute engine and CloudSQL for store data from Binance API
 
     $nano test_1.py
 
-10.Run following command to set cronjob
+10.Run following command to set cronjob (change username to yours)
 
     $sudo echo '0 * * * * root cd /home/punyapat_kha/gcp_terraform_01 && python3 test_1.py' >> /etc/crontab
     
  --------------------------------------------------------------------------------------
  
- on develop
- script for initialize table in database
+ On Developing
+ 
+    script for initialize table in database
  
