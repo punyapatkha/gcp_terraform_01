@@ -30,6 +30,8 @@ Create compute engine and CloudSQL for store data from API
 
 9.Run bash script 
 
-10.Run following command to set cronjob
+10.Config database IP in test_1.py
+
+11.Run following command to set cronjob
 
     echo '0 * * * * root cd /home/punyapat_kha/gcp_terraform_01 && python3 test_1.py' >> /etc/crontab
