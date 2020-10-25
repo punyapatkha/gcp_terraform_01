@@ -2,7 +2,7 @@
 ![alt text](https://github.com/punyapatkha/gcp_terraform_01/blob/main/bi_req_script-Page-3.jpg)
 
 
-Create compute engine and CloudSQL for store data from API
+Create compute engine and CloudSQL for store data from Binance API
 
 
 1.Set up Terraform binary on local https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/gcp-get-started
