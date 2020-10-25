@@ -13,11 +13,15 @@ Create Compute Engine and CloudSQL for store data from Binance API using Terrafo
 
 4.Config project name and service account key in main.tf
 
-5.Run Terraform plan to show current plan
+5.Run Terraform plan on your local to show current plan
 
-6.Run Terraform apply to create infrastructure 
+    Terraform plan
 
-7.SSH into VM install git and pull this repository
+6.Run Terraform apply on your local to create infrastructure 
+
+    Terraform apply
+    
+7.SSH into Ubuntu VM ( Compute Engine ) install git and pull this repository
 
 
     $sudo apt-get install git-core 
