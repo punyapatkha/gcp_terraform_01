@@ -33,6 +33,8 @@ Create compute engine and CloudSQL for store data from API
 
 9.Config database IP,Binance API Token,service account.json in test_1.py
 
+    $nano test_1.py
+
 10.Run following command to set cronjob
 
     $sudo echo '0 * * * * root cd /home/punyapat_kha/gcp_terraform_01 && python3 test_1.py' >> /etc/crontab
