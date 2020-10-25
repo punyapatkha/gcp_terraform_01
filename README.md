@@ -3,6 +3,8 @@ Create compute engine and cloud sql for store data from api
 
 1.set up terraform binary on local https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/gcp-get-started
 
+1.5 register for binance api get token
+
 2.create gcp project enable cloudsqlapi & create service account key
 
 2.5 config project name as service account key in main.tf
