@@ -20,12 +20,17 @@ def extract_binance_api(maxdate):
 
 if __name__ == '__main__':
     client = Client('iypbDmDLObSoajenxQQogZu22Scg7EROGmSb4KWWfkqIwSyoEl7GfMHrYmdESoUN', 'dQ1X8cz9gr1V10WFPdNzmoOy1RFRDw4ZcegEvPzRtcBrHV0QIy99efPFUH4uLPGl')
-    engine = sqlalchemy.create_engine('mysql://root:binance@34.126.75.181/crypto')
+    client = Client('iypbDmDLObSoajenxQQogZu22Scg7EROGmSb4KWWfkqIwSyoEl7GfMHrYmdESoUN', 'dQ1X8cz9gr1V10WFPdNzmoOy1RFRDw4ZcegEvPzRtcBrHV0QIy99efPFUH4uLPGl')
+#    engine = sqlalchemy.create_engine('mysql://root:binance@34.126.75.181/crypto')
+#    #   config these variable <>    
+    engine = sqlalchemy.create_engine('<>')
     db = mysql.connector.connect(
-    host="34.126.75.181",
+#    host="34.126.75.181",
+    host= <>,
     user="root",
     passwd="binance",
-    db="crypto",autocommit=True)
+    db="crypto",
+    autocommit=True)
     
     querystring = '''SELECT max(`open time`) from `test_3`'''
     cursor = db.cursor()
