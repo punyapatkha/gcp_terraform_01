@@ -1,5 +1,5 @@
 # gcp_terraform_01
-![alt text](https://github.com/punyapatkha/gcp_terraform_01/blob/main/bi_req_script-Page-3%20(1).png)
+![alt text](https://github.com/punyapatkha/gcp_terraform_01/blob/main/bi_req_script-Page-3%20(1).jng)
 
 
 Create Compute Engine and CloudSQL for store data from Binance API using Terraform and Bash Script
