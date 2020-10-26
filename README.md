@@ -7,7 +7,7 @@ Create Compute Engine and CloudSQL for store data from Binance API using Terrafo
 
 1.Set up Terraform binary on local https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/gcp-get-started
 
-2.Register for Binance API and get token
+2.Register for Binance API and get token https://www.binance.com/en/support/articles/360002502072
 
 3.Create GCP project enable CloudSQL API & create service account key
 
