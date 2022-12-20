@@ -22,14 +22,14 @@ if __name__ == '__main__':
     
 #    config these variable <>
 
-#    client = Client('iypbDmDLObSoajenxQQogZu22Scg7EROGmSb4KWWfkqIwSyoEl7GfMHrYmdESoUN', 'dQ1X8cz9gr1V10WFPdNzmoOy1RFRDw4ZcegEvPzRtcBrHV0QIy99efPFUH4uLPGl')
+#    client = Client('example_iypbDmDLObSoajenxQQogZu22Scg7EROGmSb4KWWfkqIwSyoEl7GfMHrYmdESoUN', 'example_dQ1X8cz9gr1V10WFPdNzmoOy1RFRDw4ZcegEvPzRtcBrHV0QIy99efPFUH4uLPGl')
     client = Client('<>', '<>')
     
-#    engine = sqlalchemy.create_engine('mysql://root:binance@34.126.75.181/crypto')
+#    engine = sqlalchemy.create_engine('example_mysql://root:binance@34.126.75.181/crypto')
     engine = sqlalchemy.create_engine('<>')
     
     db = mysql.connector.connect(
-#    host="34.126.75.181",
+#    host="example_34.126.75.181",
     host= <>,
     user="root",
     passwd="binance",
